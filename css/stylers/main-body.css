@@ -1,0 +1,39 @@
+@import url('./variables.css');
+
+::selection {
+    color: var(--white);
+    background-color: var(--primary-green);
+    text-shadow: none;
+}
+
+#main-body {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+#main-body .body-content {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-body .body-content .content-block {
+    margin: auto;
+    width: 80%;
+}
+
+#main-body .body-content .content-block h1 {
+    font-family: var(--theme-font);
+    text-shadow: 0 0 10px #f1f100;
+}
+
+#main-body .body-content .content-block .content-box {
+    text-align: justify;
+    font-size: 1.1rem;
+    font-family: var(--montserrat);
+    font-weight: 500;
+}

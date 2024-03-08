@@ -1,0 +1,34 @@
+/* Importing Local Font */
+@font-face {
+    font-family: 'Shojumaru-Regular';
+    src: url('/templates/kazokushotokan/font/Shojumaru-Regular.ttf');
+}
+
+/* Declaration of CSS Variables such as color and fonts */
+:root {
+
+    /* Color Declarations using hexadecimal */
+    --white: #ffffff;
+    --black: #000000;
+    --primary-green: #327311;
+    --light-brown: #cf9155;
+    --dark-brown: #a5512b;
+    --red: #ff0000;
+    --blue: #006eff;
+
+    /* Social Media Colors */
+    --social-fb: #1877f2;
+    --social-ig: #833ab4;
+    --social-wa: #25d366;
+    --social-yt: #ff0000;
+    --social-twit-x: #000000;
+    --social-tik: #000000;
+
+    --theme-font: 'Shojumaru-Regular';
+    --montserrat: 'Montserrat';
+    --roboto: 'Roboto';
+    --open-sans: 'Open Sans';
+    --poppins: 'Poppins';
+    --yatra-one: 'Yatra One';
+    
+}
